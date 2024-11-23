@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+.navcontainer{
+    width: 100vw;
+}
+#navlist{
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+      
+}
+.logo{
+    width: 40px;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+#tagline{
+    padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+#sub_tagline{
+    text-align: center;
+    color: rgb(117, 123, 129);
+}
+.tracker{
+    text-align: center;
+    padding: 10px;
+    
+}
+.tracker button{
+    background-color: rgb(230, 72, 15);
+    z-index: -1;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffff;
+    border-radius: 4px;
+}
+.user_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+.user_details input{
+    outline: none;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 2px;
+    padding: 4px;
+}
+.user_details button{
+    background-color: rgb(230, 72, 15) ;
+    height: 2rem;
+    width: 6rem;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffff;
+    border-radius: 4px;
+}
+/* #user_profile h2{
+    text-align: center;
+} */
+ .cirlce{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #7a403e;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    /* background: conic-gradient(
+        chocolate var(--progress-degree, 0%), 
+        lightgray var(--progress-degree, 0%)
+    ); */
+  background: conic-gradient(#474848 var(--progress-degree, 0%),   #ee8f4b 0%); 
+ flex-direction: column;
+     color: #f5eded;
+
+ }
+ .progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+ }
+ .circle span{
+    position: relative;
+    z-index: 2;
+ }
+ .stats-cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+additionalStats{
+    background-color: rgb(230, 146, 44);
+    width: 40%;
+    max-width: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 4rem;
+}

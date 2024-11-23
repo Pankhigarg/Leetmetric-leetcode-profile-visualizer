@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leetmetric</title>
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="navcontainer"></div>
+            <nav>
+                <ul id="navlist">
+                    <li>
+                        <img src="image.png" class="logo">
+                    </li>
+                    <li><p  class="heading">Leet<span style="color: chocolate;">Metric</span></p></li>
+                </div>
+
+                <h1 id="tagline"> Track , Analyze  &  Share</h1>
+                <h2 id="sub_tagline">Build your all in-one portfolio</h2>
+                <div class="tracker">
+                   <a  href="#user_profile">
+                    <button>User Profile</button>
+                </a>
+                   <a href="#question_tracker" >
+                    <button id="questionTracker">User Statistics</button>
+                </a>
+                </div>
+            </nav>
+       <br>
+       <br>
+<br>
+<br><br>
+<br>
+    <section id=" user_profile">
+               <!-- <h2>User-Info</h2> -->
+            <div class="user_details" >
+            <p> ENTER USERNAME</p>
+            <input type="text" id="userName" placeholder="Enter your username">
+            <button id="search_btn"> Search</button>
+        </div>
+    </section>
+<br>
+<br>
+<br>
+    <section id="question_tracker">
+               <!-- <h2>User-Info</h2> -->
+            <div class="user_statistics" >
+                <div class="progress">
+                    <div class="progress_item">
+                        <div class="easy-progress cirlce">
+                            <span id="easy-label"></span>
+                            Easy
+                        </div>
+                    </div>
+                    <div class="progress_item ">
+                        <div class="medium-progress cirlce">
+                            <span id="medium-label"></span>
+                            Medium
+                        </div>
+                    </div>
+                    <div class="progress_item ">
+                        <div class="hard-progress cirlce">
+                            <span id="hard-label"></span>
+                            Hard
+                        </div>
+                    </div>
+    
+            </div>
+                <div class="stats-card">
+                    <!-- directly from js codee -->
+                </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
